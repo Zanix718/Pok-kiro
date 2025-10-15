@@ -26,7 +26,8 @@ from moves import POKEMON_MOVES, get_move_by_name
 from type_effectiveness import get_type_effectiveness, get_effectiveness_text
 from movesets_scraper import get_all_moves_comprehensive
 from pokedex import pokedex
-import battle
+from battle import setup
+setup(bot)
 import random
 import json
 import string
